@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tittle-->
+    <title>Donat Kentang AA</title>
+    <!--Style-->
+    <link rel="stylesheet" href="uts.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="kentang.ico" type="image/x-icon">
+    <!--Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!--Navbar-->
+    <div class="navbar">
+        <a href="#" class="navbar-logo">Donat <span>Kentang</span> AA</a>
+            <div class="navbar-nav">
+                <a href="home.html">Home</a>
+                    <div class="navdrop">
+                        <a href="home.html#about">About</a>
+                            <div class="dropdown">
+                                <a href="profil.html#profil">Profil</a>
+                                <a href="profil.html#visimisi">Visi-Misi</a>
+                                <a href="profil.html#tujuan">Tujuan</a>
+                            </div>
+                    </div>
+                    <div class="navdrop">
+                        <a href="home.html#fft">Funfact</a>
+                            <div class="dropdown">
+                                <a href="funfact.html">Fact 1</a>
+                                <a href="fact2.html">Fact 2</a>
+                                <a href="fact3.html">Fact 3</a>
+                            </div>
+                    </div>
+                <a href="menu.html">Menu</a>
+                <a href="registration.html">Registration</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+    </div>
+    <!--Sidebar section-->
+    <center>
+        <div class="sidebar">
+            <p margin-top: 0> Visit Our Social Media!</p> <br>
+            <div class="icons">
+            <a href="https://www.instagram.com/donat_kentang_aa/"><i data-feather="instagram"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=6285780313211&text&type=phone_number&app_absent=0"><i data-feather="phone"></i></a>
+            <a href="https://web.facebook.com/wixhal?locale=id_ID"><i data-feather="facebook"></i></a>
+            </div>
+        </div>
+    </center>
+    
+   <!-- Registration -->
+    <div class="bodybox">
+        <div class="box">
+        <h4>Form Pemesanan</h4>
+        <form action="">
+            <table>
+                <tr>
+                    <td class="label"><label for="nama">Nama Lengkap</label></td>
+                    <td class="depan"><input type="text" id="nama" class="input" placeholder="Nama"></td>  
+                </tr>
+                <tr>
+                    <td class="label"><label for="nama">Email</label></td>
+                    <td class="depan"><input type="text" id="nama" class="input" placeholder="Alamat Email"></td>  
+                </tr>
+                <tr>
+                    <td class="label"><label for="nama">Nomor Telepon</label></td>
+                    <td class="depan"><input type="text" id="nama" class="input" placeholder="Nomor"></td>  
+                </tr>
+                <tr>
+                    <td class="label"><label for="nama">Alamat Lengkap</label></td>
+                    <td class="depan"><input type="text" id="nama" class="input" placeholder="Alamat Lengkap"></td>  
+                </tr>
+                <tr>
+                    <td class="label"><label for="no">Tanggal Pemesanan</label></td>
+                    <td class="zona"><input type="date" class="input" id="no"></td>
+                </tr>
+                <tr>
+                    <td class="label"><label for="no">Jumlah Pemesanan</label></td>
+                    <td class="zona"><input type="number" class="input" id="no"></td>
+                </tr>
+            </table>
+
+        <div class="wilayah">
+            <p>Konfirmasi Pemesanan</p>
+            <div class="kotak">
+                <input type="radio" class="radio" name="kategori" id="reguler">
+                <label for="reguler" class="label" name="kategori">Ya</label>
+            </div>
+            <div class="kategori">
+                <input type="radio" id="khusus" name="kategori" class="radio">
+                <label for="khusus" class="label" name="kategori">Tidak</label>
+            </div>
+            <input type="submit" id="submit" value="Pesan Sekarang">
+        </div>
+        </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <hr>
+        <p>©Donat Kentang AA</p>
+        <p>Desained by: Wishal Februana</p>
+        <p>
+            <a href="https://www.instagram.com/donat_kentang_aa/"><i data-feather="instagram"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=6285781526694&text&type=phone_number&app_absent=0"><i data-feather="phone"></i></a>  
+        </p>
+    </footer>
+    
+    <!--Feather Icons-->
+    <script>
+        feather.replace()
+    </script>
+    
+    <!--JavaScript-->
+    <script src="uts.js"></script>
+    
+</body>
+</html>
